@@ -7,17 +7,17 @@ header,
 main, 
 footer {
    display: inline-block;
-   background-color: pink;
-   width: 800px;
-   margin-left: calc(50% - 400px);
+   width: 1000px;
+   margin-left: calc(50% - 500px);
    margin-bottom: 30px;
+   /* background-color: pink; */
 }
 
 header {
    margin-top: 40px;
 }
 
-img {
+header > img {
    width: 100px;
    height: 40px;
    float: left;
@@ -30,7 +30,7 @@ nav {
    margin-top: 10px;
 }
 
-a {
+nav > a {
    display: inline-block;
    font-size: 20px;
    line-height: 1em;
@@ -39,11 +39,49 @@ a {
    margin-left: 2em;
 }
 
-a:first-child {
+nav > a:first-child {
    margin-left: 0;
 }
 
-a:hover {
+nav > a:hover {
    color: orangered;
    text-decoration: underline;
+}
+
+main {
+
+}
+
+div {
+   width: 40%;
+   float: left;
+}
+
+h1 {
+   font-size: 50px;
+   font-weight: normal;
+   color: #222222;
+}
+
+h1 > span {
+   font-weight: bold;
+   display: block;
+}
+
+p {
+ font-size: 20px;
+ /* width: 80%; */
+}
+
+div > a {
+
+}
+
+div > a:last-child {
+ background-color: orange;
+}
+
+main > img {
+   width: 55%;
+   float: right;
 }

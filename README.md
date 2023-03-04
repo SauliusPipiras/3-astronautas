@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/42-grupe-astronautas/
+Site published at: https://sauliuspipiras.github.io/3-astronautas/
 
 Design: [Astronautas](https://cdn.dribbble.com/users/1355613/screenshots/5964475/space.gif)
 

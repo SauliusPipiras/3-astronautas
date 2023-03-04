@@ -124,6 +124,10 @@ body {
    margin-right: 0;
 }
 
+.socials > .icon:hover {
+   color: #662c8c;
+}
+
 .copyright {
    margin: 0;
    float: right;

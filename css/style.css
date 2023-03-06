@@ -54,11 +54,31 @@ body {
    font-size: 50px;
    font-weight: normal;
    color: #222222;
+   position: relative;
 }
 
 .main-title > span {
    font-weight: bold;
    display: block;
+}
+
+/* .main-title::before {
+   content: '';
+   display: block;
+   width: 100px;
+   height: 5px;
+   background-color: #662c8c;
+} */
+
+.main-title::after {
+   content: '';
+   display: block;
+   width: 100px;
+   height: 5px;
+   background-color: #662c8c;
+   position: absolute;
+   bottom: -10px;
+   left: 0;
 }
 
 .description {
